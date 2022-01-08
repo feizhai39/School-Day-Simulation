@@ -8,10 +8,10 @@ import java.io.PrintWriter;
 public class Client {
     private static int numStudent = 20;
     public static void main(String[] args) throws InterruptedException {
-        // write your code here
+        
         for(int i=0;i<numStudent;i++){
             StudentClient sc = new StudentClient();
-            sc.setNames("Student"+i);
+            sc.setNames("Student" + i);
             sc.start();
         }
 
